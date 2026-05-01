@@ -9,7 +9,7 @@ export default function RootLayout({
   }>) {
     return (
       <div className="flex flex-col items-center">
-        <header className="flex justify-between items-center max-w-[800px] w-full border border-blue-400">
+        <header className="flex justify-between items-center max-w-[800px] w-full ">
             
             <section className="flex items-center">
                 <Image src={professorImage} alt="Professor Logo" width={40} height={40} />
@@ -19,7 +19,7 @@ export default function RootLayout({
             <LogoutButton />
         </header>
 
-        <main className="flex flex-col items-center max-w-[800px] w-full border">
+        <main className="flex flex-col items-center max-w-[800px] w-full ">
             {children}
         </main>
       </div>
